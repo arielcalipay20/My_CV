@@ -134,11 +134,6 @@ span {
     font-weight: 700;
 }
 
-@media (max-width: 600px) {
-    .info-container1 {
-        flex-direction: column;
-    }
-}
 
 .right-side {
     background: white;
@@ -195,6 +190,9 @@ span {
 @media (max-width: 600px) {
     .grid-container {
         grid-template-columns: 1fr;
+    }
+    .info-container1 {
+        flex-direction: column;
     }
 }
 
